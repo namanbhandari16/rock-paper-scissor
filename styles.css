@@ -1,0 +1,71 @@
+.{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: #25272e;
+	color: white;
+}
+header{
+	background: white;
+	padding: 24px;
+	margin: -10px;
+}
+header h1{
+	color:#25272e;
+	font-family: Asap sans-serif;
+	text-align: center;
+}
+.scoreboard{
+	margin: 20px auto;
+	border: 2px solid white;
+	width: 25%;
+	height: 70px;
+	text-align: center;
+	border-radius: 10px;
+	padding: 15px 20px;
+	position:relative;
+	font-size: 56px;
+}
+.badge{
+	background-color: #e25640;
+	font-size: 14px;
+	padding: 2px 16px;
+}
+#user{
+	position:absolute;
+	top:35px;
+	left:-25px;
+}
+#comp{
+	position:absolute;
+	top:35px;
+	right:-25px;
+}
+#result{
+	text-align: center;
+	font-size: 48px;
+	font-weight: bold;
+}
+.choices{
+text-align: center;
+margin: 32px 0px;
+}
+.choice{
+	display: inline-block;
+	margin: 8px;
+}
+.choice:hover{
+	cursor: pointer;
+}
+.action-message{
+	text-align: center;
+	font-weight: bold;
+	font-size: 24px;
+}
+#button{
+	text-align: center;
+	font-weight: bold;
+	font-size: 24px;
+}
